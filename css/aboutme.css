@@ -1,0 +1,52 @@
+.about-icon{
+    width:3%;
+}
+.about-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-heading{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.introduction-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+}
+.introduction-container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.introduction-container-1 img {
+    width:50%;
+    border-radius: 20px;
+}
+.introduction-subcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.introduction-name-heading{
+    font-size: 30px;
+}
+.resume-btn{
+    background-color: #00008B;
+    padding: 15px;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    border: 0px;
+}
+.resume-btn a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+.resume-btn img{
+    width: 20%;
+}
